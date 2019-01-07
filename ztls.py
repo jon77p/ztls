@@ -37,7 +37,7 @@ def ztls():
                 if member['online']:
                     results[network][member['name']]['status'] = '🌐'
                 else:
-                    results[network][member['name']]['status'] = '🔒'
+                    results[network][member['name']]['status'] = '⛔️'
                 
                 print("{0: <20} | {1:<15} | Status: {2}".format(results[network][member['name']]['name'], results[network][member['name']]['ip'], results[network][member['name']]['status']))
         print()
