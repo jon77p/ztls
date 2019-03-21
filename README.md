@@ -7,4 +7,4 @@
 ## Getting Started:
 1. Visit https://my.zerotier.com/ to create an API access token.
 2. Copy the API access token and export it as the `ZT_API` environment variable on your system.
-3. Run the script using `python3 ztls.py`
+3. Run the script using `python3 ztls.py` or `python3 ztls.py <network-name>`
