@@ -23,7 +23,7 @@ def ztls(preferred=None, only_online=False):
 
     print()
     for network in networks:
-        if preferred is None or preferred.lower() == network.lower():
+        if preferred is None or preferred.lower() in network.lower():
             results[network] = {}
             print(network + ":")
             print()
